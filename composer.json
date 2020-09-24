@@ -7,7 +7,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
-        "rmccue/requests": "dev-master"
+        "rmccue/requests": "^1.7.0"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
