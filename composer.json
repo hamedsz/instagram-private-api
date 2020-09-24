@@ -1,6 +1,6 @@
 {
     "name": "hamedsz/instagram-private-api",
-    "type": "project",
+    "type": "library",
     "description": "instagram-private-api",
     "keywords": [
     ],
