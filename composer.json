@@ -20,6 +20,5 @@
         "psr-4": {
             "hamedsz\\instagram-private-api\\": "src"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
