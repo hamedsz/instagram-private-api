@@ -13,7 +13,7 @@ composer require hamedsz/instagram-private-api
 ```
 or clone , download it.
 
-#Login to Instagram
+# Login to Instagram
 ```
 use hamedsz\instagram_private_api\Instagram;
 
@@ -23,7 +23,7 @@ $instagram = Instagram::create("USERNAME" , "PASSWORD")
 	->login();
 ```
 
-#Examples
+# Examples
 
 Follow by id
 ```
