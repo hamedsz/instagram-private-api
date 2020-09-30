@@ -21,7 +21,7 @@ class Highlight extends Request
             'include_reel'              => true,
             'include_suggested_users'   => false,
             'include_logged_out_extras' => false,
-            'include_highlight_reels'   => false,
+            'include_highlight_reels'   => true,
             'include_live_status'       => true,
         ];
         $this->url .= urlencode(json_encode($arr));
