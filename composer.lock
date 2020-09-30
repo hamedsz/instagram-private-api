@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "ddf8d2c6a9676d9afec4e23a460a48c9",
+=======
+    "content-hash": "0fbec23c48f3e76d9ef1d013c9ff688e",
+>>>>>>> 280b0c33c75ac863f874184c533065f459747982
     "packages": [
         {
             "name": "rmccue/requests",
@@ -802,6 +806,45 @@
             "time": "2020-09-17T18:04:00+00:00"
         },
         {
+<<<<<<< HEAD
+=======
+            "name": "larapack/dd",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/larapack/dd.git",
+                "reference": "561b5111a13d0094b59b5c81b1572489485fb948"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/larapack/dd/zipball/561b5111a13d0094b59b5c81b1572489485fb948",
+                "reference": "561b5111a13d0094b59b5c81b1572489485fb948",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/var-dumper": "*"
+            },
+            "type": "package",
+            "autoload": {
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Topper",
+                    "email": "hi@webman.io"
+                }
+            ],
+            "description": "`dd` is a helper method in Laravel. This package will add the `dd` to your application.",
+            "time": "2016-12-15T09:34:34+00:00"
+        },
+        {
+>>>>>>> 280b0c33c75ac863f874184c533065f459747982
             "name": "mockery/mockery",
             "version": "1.4.2",
             "source": {
