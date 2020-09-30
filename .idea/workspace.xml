@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11bf3c85-a7f1-4c5a-a474-65192d24cb70" name="Default Changelist" comment="" />
+    <list default="true" id="11bf3c85-a7f1-4c5a-a474-65192d24cb70" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Requests/Highlight/Highlight.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Requests/Highlight/Highlight.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +89,7 @@
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/larapack/dd" />
     </include_path>
   </component>
   <component name="ProjectId" id="1i01sdXhPmSOu7v57wtLVtfzHMg" />
