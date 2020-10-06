@@ -53,6 +53,11 @@ class Instagram
         return $resp;
     }
 
+    public function getRequest($id)
+    {
+
+    }
+
     public function login($twoFactor = null)
     {
         $rec = new Login($this);
@@ -128,7 +133,7 @@ class Instagram
     public function setCsrf()
     {
         $req = new Main($this);
-        $this->sendRequest($req);
+        $resp = $this->sendRequest($req);
 
         if (is_null($this->_csrf))
         {

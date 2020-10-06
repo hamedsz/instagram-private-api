@@ -7,7 +7,7 @@ use hamedsz\instagram_private_api\Requests\Request;
 
 class Highlight extends Request
 {
-    public function __construct(Instagram $insta , $user_id)
+    public function __construct(Instagram $insta , $user_id , $reels = true , $highlights = true ,  $live_status = true)
     {
         parent::__construct($insta);
 
@@ -18,11 +18,11 @@ class Highlight extends Request
         $arr = [
             'user_id'                   => $user_id,
             'include_chaining'          => false,
-            'include_reel'              => true,
+            'include_reel'              => $reels,
             'include_suggested_users'   => false,
             'include_logged_out_extras' => false,
-            'include_highlight_reels'   => true,
-            'include_live_status'       => true,
+            'include_highlight_reels'   => $highlights,
+            'include_live_status'       => $live_status,
         ];
         $this->url .= urlencode(json_encode($arr));
     }
